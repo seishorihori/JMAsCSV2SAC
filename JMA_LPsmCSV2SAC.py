@@ -1,4 +1,5 @@
 """
+
 > convert JMA CSV file(s) to SAC files 
 for strong motion records obtained with seismic intensity meters 
 operated by JMA 
@@ -44,15 +45,10 @@ def GetHeaderValues(iunit, CSVFile):
 
 # get Station Code from the file name
 	tmp = CSVFile.split('/')
-#	print(tmp)
-#	print(tmp[-1])
 	StnCode = tmp[-1][0:5]
-#	print(StnCode)
-#	sys.exit()
 
+# skip one line for the following processing
 	line = iunit.readline()
-#	address = line[11:16]
-#	print(address)
 
 # get staion location (longitude, latitude)
 	line = iunit.readline()
@@ -84,8 +80,6 @@ def GetHeaderValues(iunit, CSVFile):
 	for tmp_index in range(6):
 		print(tmp_index, tmp[tmp_index+2])
 		TriggerTime.append(int(tmp[tmp_index+2]))
-
-#	sys.exit()
 
 	return NSsampling, EWsampling, UDsampling, TriggerTime, StnCode, StnLon, StnLat
 

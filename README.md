@@ -9,10 +9,10 @@ JMAから配布されている震度計データのCSVファイルは、ヘッ�
 * JMA_LPsmCSV2.py：長周期地震動に関する情報を公開するサイトで試験的に公開されている
 震度計データを変換するためのPythonコード
 
-Python 3.6で作成と動作確認を行い、SAC形式に変換するところはObspyを使用。
+Python 3.6で作成と動作確認を行い、SAC形式に変換するところはObsPyを使用。
 
 ## Demo
-N/A
+なし
 
 ## VS. 
 同じ目的のコードはいくらでもあると思いますが、比較したことはありません。
@@ -21,7 +21,7 @@ Several researchers (mainly seismologists) will create codes for the same purpos
 ## Requirement
 * Python 3系列
 * Numpy (http://www.numpy.org/)
-* Obspy (https://github.com/obspy/obspy/wiki)
+* ObsPy (https://github.com/obspy/obspy/wiki)
 * 他にPythonの標準的と思われるライブラリ：コードの頭に出てくるimport欄を参照のこと。
 
 ## Usage
