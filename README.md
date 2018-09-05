@@ -24,7 +24,7 @@ Several researchers (mainly seismologists) will create codes for the same purpos
 * Python 3系列
 * NumPy (http://www.numpy.org/)
 * ObsPy (https://github.com/obspy/obspy/wiki)
-* 他にPythonの標準的と思われるライブラリ：コードの頭に出てくるimport欄を参照のこと。
+* 他にPythonの標準的と思われるライブラリ--コードの頭に出てくるimport欄を参照のこと。
 
 ## Usage
 JMA_LGsmCSV2SAC.py、JMA_LPsmCSV2SAC.py共通。
