@@ -26,6 +26,7 @@ Several researchers (mainly seismologists) will create codes for the same purpos
 
 ## Usage
 JMA_LGsmCSV2SAC.py、JMA_LPsmCSV2.py共通。
+
 0. 各スクリプトで変換したいCSVファイルが1ヶ所にまとまっていることが前提
 1. 変換したいCSVファイルが格納されているディレクトリを、DIR00という変数に書き込む。
 2. コードを実行。
